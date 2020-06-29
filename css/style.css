@@ -4,15 +4,13 @@
   padding: 0;
 }
 
-.wrapper {
-
-}
-
 .box {
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 10px;
+  position: relative;
 }
 
 .roma {
@@ -25,4 +23,20 @@
 
 .goldcoast {
   background-image: url(../img/goldcoast.jpg);
+}
+
+.titolo {
+  color: white;
+  position :absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+
+.layover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
