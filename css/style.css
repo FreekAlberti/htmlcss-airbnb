@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+
+}
+
+.box {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.roma {
+  background-image: url(../img/roma.jpg);
+}
+
+.londra {
+  background-image: url(../img/londra.jpeg);
+}
+
+.goldcoast {
+  background-image: url(../img/goldcoast.jpg);
+}
